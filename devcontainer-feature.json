@@ -1,6 +1,6 @@
 {
   "id": "llvm",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "name": "llvm",
   "documentationURL": "https://github.com/devcontainers-community/features-llvm",
   "description": "Installs llvm on debian based systems",
@@ -9,6 +9,7 @@
       "type": "string",
       "proposals": [
         "latest",
+        "21",
         "20",
         "19",
         "18",
@@ -24,3 +25,4 @@
       "ghcr.io/devcontainers/features/common-utils"
   ]
 }
+
