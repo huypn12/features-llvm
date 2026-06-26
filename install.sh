@@ -24,7 +24,7 @@ check_packages() {
   fi
 }
 
-check_packages lsb-release wget software-properties-common gnupg
+check_packages lsb-release wget gnupg
 
 # Remove any previous LLVM that may be in the base image
 # LLVM packages packaged by Ubuntu may get picked over us and
